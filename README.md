@@ -1,90 +1,49 @@
-# Gothwad Tech Private Limited
-### Sovereign Software Engineering | Enterprise Digital Infrastructure | Technological Autonomy
+<div align="center">
 
+<img src="https://gothwadtech.github.io/profile-banner.svg" alt="Gothwad Tech — official profile banner" width="100%" />
 
----
+<br />
 
-## Corporate Overview
-Gothwad Tech Pvt. Ltd. is an elite software engineering collective and high-end IT consultancy focused on architecting resilient enterprise-grade digital infrastructure. Operating under the visionary framework of India's Atmanirbhar Bharat mission, we deliver mission-critical software solutions, cutting-edge artificial intelligence systems, and comprehensive cybersecurity frameworks for modern conglomerates and fast-scaling digital ecosystems.
+### GOTHWAD TECH
 
-We align deep technical expertise with strategic business objectives, moving far beyond mere code generation to deliver long-term competitive advantages and technological sovereignty for our partners.
+Identity, web products and Android software, built in India.
 
----
+[**Website**](https://gothwadtech.com) &nbsp;·&nbsp; [**Showcase**](https://gothwadtech.github.io/) &nbsp;·&nbsp; [**Developer docs**](https://docs.gothwadtech.com) &nbsp;·&nbsp; [**Public repositories**](https://github.com/GothwadTech?tab=repositories)
 
-## Technological Domain Expertise
-
-### 1. Enterprise Web & Distributed Systems
-* High-Concurrency Architectures: Building scalable front-facing applications utilizing Next.js, React.js, and advanced state-management engines optimized for millions of active sessions.
-* Resilient Backend Infrastructure: Crafting highly available, microservices-oriented backends via Node.js, Go, and Rust with containerized orchestrations.
-* Serverless & Edge Computing: Deploying global, low-latency edge networks utilizing Cloudflare Pages, Remix, and enterprise cloud ecosystems.
-
-### 2. Native & Cross-Platform Mobile Engineering
-* Enterprise Mobility: Architecting robust, cross-platform enterprise mobile applications via Flutter and React Native with secure offline-first sync capabilities.
-* Native Optimization: Fine-tuning underlying execution threads using Kotlin and Swift for platform-specific hardware acceleration and strict memory management.
-
-### 3. Applied Artificial Intelligence & Intelligent Automation
-* Custom LLM Pipelines: Implementation and orchestration of specialized Large Language Model (LLM) agents, semantic search engines, and multi-modal automation tools.
-* Data Intelligence: Processing, transforming, and optimizing high-volume data streams through integration with enterprise-grade edge storage and analytical platforms.
-
-### 4. Zero-Trust Cyber Security & Vulnerability Lifecycle Management
-* Offensive Security Operations: Conducting regular white-box and black-box penetration testing across all network layers, cloud instances, and API boundaries.
-* Defensive Engineering: Implementing automated Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) directly into production-level deployment branches.
+</div>
 
 ---
 
-## Operational Architecture Matrix
+## What this organization builds
 
-* Phase 01: Discovery & Architecture Mapping
-  - Technical Debt Audit, Infrastructure Mapping, Resource Constraints.
-* Phase 02: Prototyping & Structural Design
-  - High-Fidelity UI/UX Layouts, Micro-interactions, Component Design Systems.
-* Phase 03: Agile Engineering Sprints
-  - High-Velocity 2-to-4 Week Features, CI/CD Automation Pipelines.
-* Phase 04: Hardening & Perimeter Defense
-  - Zero-Trust Penetration Audit, Defect Resolution, Security Patch Verification.
-* Phase 05: Automated Edge Deployment
-  - Cloudflare Edge / AWS Automated Infrastructure, 24/7 Server Telemetry Logs.
+Three threads run through the work published here.
+
+- **A shared identity layer.** [Gothwad Accounts](https://github.com/GothwadTech/accounts) is the single sign-on and OAuth 2.0 hub the ecosystem signs in with — one account, many products, several sessions side by side.
+- **Edge-first web products.** Mail, Drive, Meet, Store and Remote Desktop are built on Cloudflare Workers, Pages and D1 rather than on long-running servers.
+- **Native Android and TV software.** Kotlin applications where a remote control, a keyboard, or a file manager is a first-class input, alongside launchers and utilities for Android TV.
 
 ---
 
-## The Gothwad Blueprint (Execution Lifecycle)
-We mitigate delivery risk and maximize production quality through a rigid, data-driven lifecycle:
+## Selected work
 
-1. Discovery & Architecture Mapping: Full-scale assessment of operational friction points, scaling expectations, legal compliance, and technological dependencies.
-2. Interactive Component Design: Formulating precise, highly intuitive workflows and structural design systems to minimize interface cognitive load and maximize user retention.
-3. Agile Engineering Sprints: Iterative feature delivery through strict scrum patterns, backed by automated unit testing and continuous integration patterns.
-4. Security Hardening & Isolation: Comprehensive penetration testing, security patch validation, and perimeter verification to completely isolate enterprise codebases from systemic threats.
-5. Continuous Operations & Telemetry: Seamless production handovers to destination environments (Google Play Console, App Store Connect, AWS Cloud, Cloudflare Enterprise Edge) accompanied by 24/7 server telemetry and automated anomaly alerts.
+| Project | What it is | Built with |
+| :-- | :-- | :-- |
+| **[Gothwad Accounts](https://github.com/GothwadTech/accounts)** | Central identity for the ecosystem: multi-account SSO across Gothwad apps, plus an OAuth 2.0 hub other products integrate against — see the published [OAuth and PKCE guide](https://docs.gothwadtech.com/docs/oauth). | Cloudflare Workers · D1 · WebCrypto |
+| **[PlusTube](https://github.com/GothwadTech/tubeapp)** | YouTube and YouTube Music client for Android with an on-device recommendation engine. GPL-3.0, distributed as [APK releases](https://github.com/GothwadTech/tubeapp/releases) with a nightly channel. | Kotlin · Jetpack Compose |
+| **[Gothwad Browser](https://github.com/GothwadTech/browser)** | Chromium-WebView browser aimed at Android TV, tablets and phones, where remote, keyboard and mouse input all matter. Its README records a pre-release hardening pass and an open licence and attribution question. | Kotlin · Android WebView |
+| **[Kiwi Store](https://github.com/GothwadTech/store)** | Android app store: public storefront, developer console, moderation admin and app landing page behind one edge API, with a [native client](https://github.com/GothwadTech/storeapp). | TypeScript · Workers · D1 |
+| **[GrixChat](https://github.com/GothwadTech/grixchat)** | Messaging and private-calling application, shipped as a PWA and a Play Store TWA build. | React · TypeScript · PWA |
+| **[Gothwad Mail](https://github.com/GothwadTech/mail)** | Webmail where the address comes from the Gothwad username; its Worker serves the REST API and also receives inbound mail. | React · Worker · D1 · Resend |
+| **[Gothwad Drive](https://github.com/GothwadTech/drive)** | Cloud drive that streams file bytes between the browser and Telegram storage, with an encrypted session vault kept at the edge. MIT-licensed. | TypeScript · MTProto · Workers |
+| **[Gothwad Meet](https://github.com/GothwadTech/meet)** | Video and audio conferencing over a WebRTC mesh, deployed as a static site with no backend of its own. | React · WebRTC · PeerJS |
+| **[Gothwad Remote Desktop](https://github.com/GothwadTech/remotedesk)** | Browser-based remote desktop to a Windows host over WebRTC peer-to-peer, deliberately backed by no database. | TypeScript · WebRTC · Pages |
 
----
-
-## GTech Swadeshi Hub
-As a cornerstone of national technology self-reliance, we maintain a dedicated software supply chain platform known as the GTech Swadeshi Store. This proprietary platform serves as a secure, enterprise-grade registry for vetted, pre-compiled modules, custom API plugins, and architectural templates. This hub accelerates go-to-market speed for regional development ecosystems while ensuring absolute data security and compliance with sovereign standards.
-
----
-
-## DevSecOps & Quality Benchmarks
-* Unit Test Coverage: Minimum 85% mandatory threshold on all core business logic layers.
-* Pipeline Security: Automated vulnerability scanning on all third-party dependencies before merger into staging/production environments.
-* Code Quality Standards: Strict adherence to industry-standard linters, static code analysis, and solid design principles.
+**Also public:** the [documentation portal](https://github.com/GothwadTech/docs) (12 product guides across 21 MDX pages), the sources for [this showcase](https://github.com/GothwadTech/gothwadtech.github.io) and the [official website](https://github.com/GothwadTech/website), an AGPL-3.0 [school management and learning platform](https://github.com/GothwadTech/education), and the Android TV set — [Launcher](https://github.com/GothwadTech/launcher) (Apache-2.0), [Manager](https://github.com/GothwadTech/manager) (file manager) and [Computer](https://github.com/GothwadTech/computer) (TV and desktop launcher).
 
 ---
 
-## Compliance & Governance
-Gothwad Tech Pvt. Ltd. operates under strict governance principles. We ensure all software artifacts align with global enterprise benchmarks:
-* OWASP Top 10 Framework: Rigid enforcement across all web, cloud, and data transactions to mitigate top web application vulnerabilities.
-* Data Sovereignty Compliance: Absolute adherence to local and international data residency, protection, and privacy frameworks.
-* Clean Code Architecture: Modular, fully unit-tested, decoupled, and highly maintainable open and closed-source software structures.
+## Before you rely on anything here
 
----
+> These projects sit at very different stages. Each repository's own README and docs are the authoritative description of what it does today, what is still being built, and which licence applies — some are mid-hardening or pre-release, and licences differ by repository (MIT, Apache-2.0, GPL-3.0, AGPL-3.0, or none stated). Forked upstream projects such as Cromite and Telegram Web A keep their upstream licences. A public repository or product URL is not a claim of production availability, support, or fitness for a particular use.
 
-## Corporate Communications
-* Corporate Portal: [gothwadtechnologies.com](https://gothwadtechnologies.com)
-* Enterprise Solutions & Partner Inquiries: solutions@gothwadtechnologies.com
-* Primary Operations Region: India
-
----
-<p align="center">
-  <b>© 2026 Gothwad Tech Pvt. Ltd. All corporate rights reserved.</b><br>
-  <sub>Architecting the future of sovereign enterprise digital systems.</sub>
-</p>
+<sub>Gothwad Tech Private Limited · India · [Website](https://gothwadtech.com) · [Docs](https://docs.gothwadtech.com) · [Repositories](https://github.com/GothwadTech?tab=repositories)</sub>
